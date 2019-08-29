@@ -8,11 +8,19 @@ PCB files for the Adafruit Perma Proto Bonnet for Raspberry Pi. Format is EagleC
 
 ### Description
 
-Bosch has stepped up their game with their new BME280 sensor, an environmental sensor with temperature, barometric pressure and humidity! This sensor is great for all sorts of weather/environmental sensing and can even be used in both I2C and SPI!
+Design your own Bonnet or pHAT, attach custom circuitry and otherwise dress your Pi Zero with this jaunty prototyping Bonnet kit!
 
-This precision sensor from Bosch is the best low-cost sensing solution for measuring humidity with ±3% accuracy, barometric pressure with ±1 hPa absolute accuraccy, and temperature with ±1.0°C accuracy. Because pressure changes with altitude, and the pressure measurements are so good, you can also use it as an altimeter with  ±1 meter or better accuracy!
+To add to the [Adafruit Bonnet party](https://www.adafruit.com/categories/929), we have this Perma-Proto inspired plug in daughter board. It has a grid of 0.1" prototyping soldering holes for attaching chips, resistors, LED, potentiometers and more. The holes are connected underneath with traces to mimic the solderless breadboards with which you're familiar. There's also long power strips for +3V, +5V and Ground connections to the Pi. Near the top we break out nearly every pin you could want to connect to the Pi (#26 didn't quite make the cut).
 
-The BME280 is the next-generation of sensors from Bosch, and is the upgrade to the BMP085/BMP180/BMP183 - with a low altitude noise of 0.25m and the same fast conversion time. It has the same specifications, but can use either I2C or SPI. For simple easy wiring, go with I2C. If you want to connect a bunch of sensors without worrying about I2C address collisions, go with SPI.
+The __Perma-Proto Bonnet__ comes with a printed circuit board and a single [2x20 GPIO Header for Raspberry Pi](http://www.adafruit.com/product/2222) to put your Perma-Proto on top of your Raspberry Pi Zero (like a nice little bonnet...). Unlike our [Perma-Proto HATs](https://www.adafruit.com/products/2314), this design does not include an EEPROM, so you can 'stack' it with other Bonnets and pHATs without worrying about an EEPROM address collision.
+
+You can customize your Perma-Proto setup using a [standard 2x20 stacking header](https://www.adafruit.com/products/2223) or [extra tall 2x20 stacking header](https://www.adafruit.com/product/1979).
+
+You can also swap out the 2x20 header with a [slim 2x20 type if you want it to sit closer to the Pi](https://www.adafruit.com/products/2243), or [an extra tall one if you want it to sit above the USB/Ethernet ports](https://www.adafruit.com/products/1992).
+
+A bit of light soldering is required to attach the header to the PCB but it's easy work.
+
+This bonnet is designed for use with Raspberry Pi Zero but you can put on top of any Raspberry Pi with a 2x20 connector, it will just not stick out as far. [We also offer a full 'HAT' sized version for Pi A+, B+, Pi 2 & 3.](https://www.adafruit.com/products/2310)
 
 ### License
 
